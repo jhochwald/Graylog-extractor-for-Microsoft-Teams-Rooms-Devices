@@ -294,4 +294,4 @@ Import the exctractors to your [Graylog](https://www.graylog.org) Inputs (Beats)
 
 You will find the extractors as [extractors.json](assets/extractors.json) in the [assets](assets) directory!
 
-![GitHub](https://img.shields.io/github/license/jhochwald/Graylog-extractor-for-Microsoft-Teams-Rooms-Devices) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+[![GitHub](https://img.shields.io/github/license/jhochwald/Graylog-extractor-for-Microsoft-Teams-Rooms-Devices)](LICENSE)  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
