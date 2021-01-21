@@ -1,0 +1,13 @@
+{
+  "Description": "Network status : Healthy. Exchange status : GeneralError. Signin status: Unhealthy. Teams Signin status: Unhealthy.",
+  "ResourceState": "Unhealthy",
+  "OperationName": "Heartbeat",
+  "OperationResult": "Fail",
+  "OS": "Windows 10",
+  "OSVersion": "10.0.18363.1316",
+  "Alias": "",
+  "DisplayName": "",
+  "AppVersion": "4.7.15.0",
+  "IPv4Address": "XXX.XXX.XXX.XXX",
+  "IPv6Address": ""
+}

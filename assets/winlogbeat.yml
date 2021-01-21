@@ -1,0 +1,18 @@
+
+# Define the output (we use Logstash for Graylog)
+output.logstash:
+  hosts:
+    - 'XXX.XXX.XXX.XXX:XXXX'
+
+# Cleanup
+path: null
+
+# The amount of time to wait for all events to be published when shutting down.
+winlogbeat.shutdown_timeout: 30s
+
+# A list of entries (called dictionaries in YAML) that specify which event logs to monitor.
+winlogbeat.event_logs:
+  # Microsoft Skype for Business Rooms System and Microsoft Teams Rooms System only
+  - name: Skype Room System
+    level: 'critical, error, warning'
+    ignore_older: 24h

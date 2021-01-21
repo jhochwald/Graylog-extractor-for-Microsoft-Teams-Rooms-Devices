@@ -1,0 +1,13 @@
+{
+  "Description": "Conference Microphone status : Unhealthy. Conference Speaker status : Unhealthy. Default Speaker status : Unhealthy. Camera status : Unhealthy. Front of Room Display status : Healthy. Motion Sensor status : Healthy. HDMI Ingest status : Healthy. Content Camera status : Healthy. ",
+  "ResourceState": "Unhealthy",
+  "OperationName": "HardwareCheckEngine",
+  "OperationResult": "Fail",
+  "OS": "Windows 10",
+  "OSVersion": "10.0.18363.1316",
+  "Alias": "XXX@XXX.net",
+  "DisplayName": "Team Territory (enabling Technology)",
+  "AppVersion": "4.7.15.0",
+  "IPv4Address": "XXX.XXX.XXX.XXX",
+  "IPv6Address": ""
+}
