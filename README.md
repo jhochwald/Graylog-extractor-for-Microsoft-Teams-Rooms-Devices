@@ -9,6 +9,7 @@ I created this to trigger useful Alarms, but it is in a very early beta stage!
 It extracts the JSON Information and parses the description field.
 
 It transform this Message:
+
 ```json
 {
   "Description": "Conference Microphone status : Unhealthy. Conference Speaker status : Unhealthy. Default Speaker status : Unhealthy. Camera status : Unhealthy. Front of Room Display status : Healthy. Motion Sensor status : Healthy. HDMI Ingest status : Healthy. Content Camera status : Healthy. ",
@@ -24,10 +25,12 @@ It transform this Message:
   "IPv6Address": ""
 }
 ```
+
 into this:
 ![](images/MTR_Alarm.png)
 
 And it transform this Message:
+
 ```json
 {
   "Description": "Network status : Healthy. Exchange status : GeneralError. Signin status: Unhealthy. Teams Signin status: Unhealthy.",
@@ -43,6 +46,7 @@ And it transform this Message:
   "IPv6Address": ""
 }
 ```
+
 into this:
 ![](images/MTR_Offline.png)
 
@@ -60,7 +64,7 @@ this is the minimum [Winlogbeat](https://www.elastic.co/beats/winlogbeat) config
 # Define the output (we use Logstash for Graylog)
 output.logstash:
   hosts:
-    - 'XXX.XXX.XXX.XXX:XXXX'
+    - "XXX.XXX.XXX.XXX:XXXX"
 
 # Cleanup
 path: null
@@ -72,9 +76,21 @@ winlogbeat.shutdown_timeout: 30s
 winlogbeat.event_logs:
   # Microsoft Skype for Business Rooms System and Microsoft Teams Rooms System only
   - name: Skype Room System
-    level: 'critical, error, warning'
+    level: "critical, error, warning"
     ignore_older: 24h
 ```
+
+You will find this minimal config as [winlogbeat.yml](assets/winlogbeat.yml) in the [assets](assets) directory!
+
+## Installation
+
+Open your **Inputs** in **System / Inputs**
+
+![](images/Graylog_Inputs.png)
+
+Then select **Manage extractors**, then click **Actions** and select **Export extractors**.
+
+![](images/Import_Extractors.png)
 
 ## Exctractors
 
@@ -275,3 +291,5 @@ Import the exctractors to your [Graylog](https://www.graylog.org) Inputs (Beats)
   "version": "4.0.1"
 }
 ```
+
+You will find the extractors as [extractors.json](assets/extractors.json) in the [assets](assets) directory!
