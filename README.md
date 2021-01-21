@@ -2,6 +2,8 @@
 
 A simple Graylog extractor for Microsoft Teams Rooms Devices
 
+I created this to trigger useful Alarms, but it is in a very early beta stage!
+
 ## What it does
 
 It extracts the JSON Information and parses the description field.
@@ -25,7 +27,7 @@ It transform this Message:
 into this:
 ![](images/MTR_Alarm.png)
 
-An it transform this Message:
+And it transform this Message:
 ```json
 {
   "Description": "Network status : Healthy. Exchange status : GeneralError. Signin status: Unhealthy. Teams Signin status: Unhealthy.",
