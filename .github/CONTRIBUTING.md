@@ -39,7 +39,7 @@ Any kind of contribution is highly appreciated!
 
 If you change the code/configuration, please do solid tests and create a GitHub [pull request](https://github.com/jhochwald/Graylog-extractor-for-Microsoft-Teams-Rooms-Devices/pulls) to notify us about your changes.
 
-#### License
+### License
 
 The default [license](https://github.com/jhochwald/Graylog-extractor-for-Microsoft-Teams-Rooms-Devices/blob/main/LICENSE) applies.
 
