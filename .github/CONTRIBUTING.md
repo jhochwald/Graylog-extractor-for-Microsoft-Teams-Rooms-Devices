@@ -37,15 +37,15 @@ Do not contact or email us directly, unless you have a very good reason. The onl
 
 Any kind of contribution is highly appreciated!
 
-If you change the code/configuration, please do solid tests and create a GitHub [pull request](/pulls) to notify us about your changes.
+If you change the code/configuration, please do solid tests and create a GitHub [pull request](https://github.com/jhochwald/Graylog-extractor-for-Microsoft-Teams-Rooms-Devices/pulls) to notify us about your changes.
 
 #### License
 
-The default [license](LICENSE) applies.
+The default [license](https://github.com/jhochwald/Graylog-extractor-for-Microsoft-Teams-Rooms-Devices/blob/main/LICENSE) applies.
 
 ### Your Name
 
-I will publish your name to mention you as a [contributor](CONTRIBUTORS.md). If you don't want that, please let us know.
+I will publish your name to mention you as a [contributor](https://github.com/jhochwald/Graylog-extractor-for-Microsoft-Teams-Rooms-Devices/blob/main/CONTRIBUTORS.md). If you don't want that, please let us know.
 
 ## Further reading
 
