@@ -4,7 +4,7 @@ This is a guide for everyone interested in contributing to this open source proj
 
 It's on based good practices and on well known community workflows.
 
-Please read our [code of conduct](CODE_OF_CONDUCT.md).
+Please read our [code of conduct](https://github.com/jhochwald/Graylog-extractor-for-Microsoft-Teams-Rooms-Devices/blob/main/CODE_OF_CONDUCT.md).
 
 ## General Bug Report
 
